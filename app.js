@@ -18,6 +18,14 @@ app.get("/about", function (req, res){
   res.render("about");
 });
 
+app.get("/join_us", function (req, res){
+  res.render("join_us");
+});
+
+app.get("/events", function (req, res){
+  res.render("events");
+});
+
 
 app.listen(3000, function() {
   console.log("Server started on port 3000");

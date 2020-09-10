@@ -74,7 +74,9 @@ p {
   background-color: #fdb44b;
 }
 
-
+.side-img {
+  width: 100%;
+}
 
 #footer {
   background-color: #005792;
