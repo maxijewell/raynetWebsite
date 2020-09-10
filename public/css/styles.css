@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8F8F8F;
+  color: black;
 }
 
 /*headings*/
@@ -22,13 +22,17 @@ p {
 }
 
 .container-fluid {
-  padding: 2%;
+  padding: 0;
+}
+
+.container {
+  padding: 1%
 }
 
 /*sections*/
 #header {
 
-  background-color: #0098D3;
+  background-color: #005792;
   color: #fff;
 }
 
@@ -37,18 +41,25 @@ p {
 
 /*Navigation bar*/
 .navbar {
-  padding: 3% 0 0 0;
+  background-color: #00204a;
+  padding: 1% 0 1% 0;
 
 }
 
 .nav-item {
   padding: 0 18px;
+
 }
 
 .nav-link {
   font-size: 1.5rem;
   font-weight: 300;
   font-family: 'Basic';
+  color: white;
+}
+
+.title {
+  padding: 1%
 }
 
 /*title image*/
@@ -59,7 +70,15 @@ p {
 
 }
 
+.yellow {
+  background-color: #fdb44b;
+}
 
+
+
+#footer {
+  background-color: #005792;
+}
 
 @media (max-width: 1028px) {
   #title {
@@ -67,3 +86,6 @@ p {
   }
 
 }
+
+//#00bbf0
+//#fdb44b
